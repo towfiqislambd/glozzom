@@ -1,0 +1,116 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/*-----------------------index.html part----------------------------*/
+nav{
+    background:#000
+}
+header{
+    min-height: 500px !important;
+    width: 100%;
+}
+header img{
+    height: 510px 
+}
+#moreaboutus{
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../image/b5.jpeg) no-repeat center center / cover;
+    background-attachment: fixed;
+}
+#video{
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../image/a9.jpeg) no-repeat center center / cover;
+    background-attachment: fixed;
+    padding:5rem 0rem !important
+}
+#video a i{
+    font-size:50px;
+    color: #ff0000;
+    margin-bottom: 1rem
+}
+#ourphoto img{
+    height: 250px
+}
+/*-----------------------about.html part----------------------------*/
+
+#slide{
+    background:url(../image/a1.jpeg) no-repeat top center / cover;
+    min-height: 240px;
+    margin-top: 55px;
+}
+#info i{
+    font-size:50px
+}
+/*----------------------services.html part--------------------------*/
+
+#slide2{
+    background:url(../image/a2.jpeg) no-repeat center center / cover;
+    min-height: 240px;
+    margin-top: 55px;
+}
+#service .card:hover{
+    transform: translateY(-5px);
+    transition: all 0.5s;
+    box-shadow: 2px 2px 10px #333;
+}
+/*----------------------blog.html part--------------------------*/
+#slide3{
+    background:url(../image/a3.jpeg) no-repeat center center / cover;
+    min-height: 240px;
+    margin-top: 55px;
+}
+#personalInfo .card:hover{
+    box-shadow: 2px 2px 10px #555;
+    transition: all .5s
+}
+#personalInfo .card:hover  img{
+    transform: scale(1.1);
+    transition: all .5s
+}
+/*----------------------blog.html part--------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:768px){
+    #info .row{
+        margin-bottom: 0px !important
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
